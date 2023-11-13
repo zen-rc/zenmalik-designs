@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    border-color: black;
+}
+body{
+    background-image: url(../joeypurp.gif); 
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    padding: 10%;
+    color: white;
+
+}
+header, section{
+    height: 100px;
+    width: 100%;
+    background-color:  rgba(201, 201, 201, 0.356);
+    padding: 2% 35%;
+}
+header {
+    padding: 2% 20%
+}
+h2{
+    font-weight: 900;
+    font-size: 40px;
+}
+input, button{
+    display: block;
+    padding: 2%;
+    margin: 3%;
+    border: white;
+    border-radius: 6px;
+    background-color: rgba(237, 198, 255, 0.856);
+}
+span{
+    font-weight: 700;
+    font-size: 36px;
+}
+h3{
+    margin: 0%;
+}
+.small{
+width: 100%;
+height: 50px;
+padding: 2% 0% 2% 86%;
+}
+p{
+    margin:0%
+}

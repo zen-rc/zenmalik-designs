@@ -1,0 +1,243 @@
+/* ////////BASIC LAYOUT//////// */
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    width: 100%;
+    clear: both;
+    background-color: rgb(50, 50, 88);
+}
+section{
+    width: 100%;
+    float: left;
+    padding: 15%;
+    }
+header>section{
+    width: 33.33%;
+    float: left;
+    background-color: rgb(50, 50, 88);
+    height: 45px;
+    color: white;
+    border: white;
+    text-transform: uppercase;
+    padding: 1%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 2%;
+    font-weight: 600;
+}
+header img{
+    margin: 0% 40%;
+    width: 11%;
+}
+header button{
+    width: 32%;
+    padding: 2%;
+    background-color: white;
+    margin-right: 2% ;
+}
+header button, button>a{
+    float: right;
+    color:  rgb(50, 50, 88);
+    width: 28%;
+}
+.half{
+    width: 40%;
+    padding: 0% 5%;
+    margin: 5%;
+}
+/* .full img{
+    padding: 0% 6%;
+} */
+.lavhalf {
+    width: 50%;
+    padding: 0%
+}
+.clearfix{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.full{
+    width: 100%;
+    padding: 0%;
+}
+/* ////////STYLES CHANGES//////// */
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: rgb(50, 50, 88);
+}
+.grey{
+    background-color: lightgrey;
+}
+h1, h2, h3, button {
+    display: block;
+    text-transform: uppercase
+}
+button{
+    display: inline;
+    font-weight: bold;
+    color:rgb(50, 50, 88);
+    background-color: transparent; 
+    border: 1px rgb(50, 50, 88) solid ;
+    padding: 1%;
+}
+.half button{
+    padding: 4%
+}
+body{
+    color:rgb(50, 50, 88);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header, footer, .blue {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration-line: none;
+}
+.lav{
+    width: 50%;
+}
+footer{
+    border: 1px black solid;
+    width: 100%;
+    height: 400px;
+    clear: both;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(1, 1, 54);
+    line-height: 27px;
+}
+footer>section{
+    width: 100%;
+    height: 300px;
+    float:left;
+    font-weight: 700;
+    padding: 0;
+    text-align: left;
+}
+.bignami{
+    border-top: 1px white solid;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+}
+footer section>section{
+    width:40%;
+    height: 200px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 10px;
+}
+.right{
+    float: right;
+    text-transform: none;
+}
+footer i{
+    margin: 9px;
+    font-size: 36px;
+
+}
+.light{
+    display: block;
+    color: grey;
+    margin:2px;
+    
+}
+footer span{
+    margin: 32px;
+    margin-left: 0px;
+}
+.milk{
+    font-weight:300;
+    text-transform: none;
+}
+.born{
+    text-transform: uppercase;
+}
+/*//////// MEDIA QUIERIES///////// */
+
+/*// ///////TABLET///////////// */
+@media (max-width: 950px) {
+    .grey{
+        padding: 11%;
+    }
+}
+@media (max-width:740px){
+    .half{
+        width:100%;
+    }
+    footer>section{
+        width: 93%;
+        font-size: 11px;
+    }
+    .bignami {
+        display:none;
+    }
+    header button{
+        width: 32%;
+    }
+    header img {
+        width: 21%;
+    }
+    .grey{
+        padding: 6%;
+    }
+}
+@media (max-width:668px){
+    header button{
+        width: 50%;
+    }
+    header>section{
+        width: 45%;
+    }
+    /* footer>section{
+        width: 100%;
+} */
+    .logo{
+        width:24%;
+    }
+    header img{
+        width: 36%;
+        margin: 0%;
+    }
+    header>section{
+        width:38%;
+    }
+    .half{
+        width: 38%;
+    }
+    .grey {
+        padding: 6% 0%;
+    }
+}
+@media (max-width:604px){
+    header button{
+        width: 46%;
+    }
+    footer>section{
+        width: 100%;
+    }
+    .half{
+        width: 100%;
+        margin: 0%;
+    }
+    .lavhalf {
+        display: none;
+    }
+}
+@media(max-width: 500px){
+    header>section{
+        width:38%;
+    }
+}
