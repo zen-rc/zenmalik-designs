@@ -6,7 +6,7 @@ header, main, aside, section{
 }
 body {
     padding: 1%;
-   background-color: rgba(103, 128, 159, 0.61);
+   background-color: rgba(145, 188, 241, 0.61);
    width: 95%;
    font-size: 16px;
 }
@@ -15,7 +15,7 @@ header, main{
     margin: none;
 }
 body, header, main {
-    border: 1px rgb(41, 58, 80) solid;
+    /* border: 1px rgb(41, 58, 80) solid; */
 }
 h2{
     font-size: 2.75rem;

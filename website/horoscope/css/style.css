@@ -1,29 +1,55 @@
-*{
+
+* {
     box-sizing: border-box;
     border-color: black;
 }
-body{
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
     background-image: url(../joeypurp.gif); 
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100% 700px;
     padding: 10%;
     color: white;
-
 }
-header, section{
+
+header, section {
+    display: flex;
+    /* flex-direction: column; Arrange children vertically */
+    align-items: center; /* Center children horizontally within each section */
+    justify-content: center; /* Center children vertically within each section */
     height: 100px;
     width: 100%;
-    background-color:  rgba(201, 201, 201, 0.356);
+    background-color: rgba(201, 201, 201, 0.356);
     padding: 2% 35%;
 }
-header {
-    padding: 2% 20%
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
-h2{
+
+header {
+    padding: 2% 20%;
+}
+
+h2 {
     font-weight: 900;
     font-size: 40px;
 }
-input, button{
+
+input, select, button {
     display: block;
     padding: 2%;
     margin: 3%;
@@ -31,18 +57,22 @@ input, button{
     border-radius: 6px;
     background-color: rgba(237, 198, 255, 0.856);
 }
-span{
+
+span {
     font-weight: 700;
     font-size: 36px;
 }
-h3{
+
+h3 {
     margin: 0%;
 }
-.small{
-width: 100%;
-height: 50px;
-padding: 2% 0% 2% 86%;
+
+.small {
+    width: 100%;
+    height: 50px;
+    padding: 2% 0% 2% 86%;
 }
-p{
-    margin:0%
+
+p {
+    margin: 0%;
 }

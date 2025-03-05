@@ -3148,7 +3148,7 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: rgb(55, 78, 26);
+		/* background-color: rgb(55, 78, 26); */
 		background-image: url("images/overlay.png"), url("../../Web/DSC_0681.JPG");
 		background-position: top left,								center center;
 		background-repeat: repeat,									no-repeat;
@@ -3888,6 +3888,14 @@
 
 	}
 	/* Zen's edits to Website */
+	/* Portfolio section */
+	.features-row {
+		overlay: auto
+	}
+	:hover .features-row{
+
+	}
+	/* Misc */
 	header.major>img {
 		width: 19%;
 		left: .75em;
@@ -3966,4 +3974,8 @@
 	h2{
 		font-family:'Noto Serif JP';
 	}
-	/* dont forget to fix img size bc it doesnt look good in rd */
+	@media (max-width: 930px) {
+		img{
+			display: none;
+		}
+	}

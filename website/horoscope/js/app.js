@@ -14,6 +14,10 @@ function checkZodi() {
     const month = Number(monthIn.value)
     const day = Number(dayIn.value)
     ///capicorn 12/22-1/19
+if(day < 1 || day > 31) {
+  alert('please enter a valid day of the month')
+  return
+}
 if( month === 12 && day >= 22 || month === 1 && day <= 19 ){
 displayMessage('Capicorn')
 }

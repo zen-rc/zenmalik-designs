@@ -363,4 +363,9 @@ a {
     .madrid{
         height: 225px;
     }
-}  
+}
+@media (max-width: 1306px) {
+    #charles{
+        width: 65%;
+    }
+}
